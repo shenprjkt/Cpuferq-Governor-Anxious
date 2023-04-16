@@ -20,7 +20,7 @@ Steps/Levels  |     Frequency(Mhz)           Governor Parameters
  6             |      2016000                                                 |-> cluster>cur_level can move up within this
  7             |      2150000           -----> cluster>cur_level              | 
  8             |      2208000           -----> cluster->nr_levels           __|
- 
+ ```
  ## Working
 Using the above representation we will see how the governor works. The `cluster->nr_levels` is the total number of frequency steps available for the current cluster.
 `cluster->cur_level` holds the current frequency step the CPU is at, initially it's at highest step in the unthrottled state. 
