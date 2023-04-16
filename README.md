@@ -8,7 +8,7 @@
 - `max_throttle_step` - This parameter defines the maximum steps of frequency for the respective cluster can be throttled down.
 - `idle_frequency` - This paraemter defines the frequency to be used when the CPU is 'idle'.
 - `idle_threshold` - This parameter defines 'idle' for the respective cluster. The threshold is average load of all cores in that cluster and if average is lower than defined threshold `idle_threshold` then the `idle_frequency` is applied to the CPU.
-
+```
 Steps/Levels  |     Frequency(Mhz)           Governor Parameters
  --------------------------------------------------------------------
  0             |      652000            -----> idle_frequency (default)
